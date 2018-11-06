@@ -188,3 +188,7 @@ h2,h3,h4,h5 {
 .utterances {
     margin-left: 0 !important;
 }
+
+.nav_main .breadcrumb a {
+    color: #c09bfd;
+}

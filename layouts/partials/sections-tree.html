@@ -1,5 +1,4 @@
 {{ $home := .Site.Home }}
-{{ $.Scratch.Set "current_page_url" .URL }}
 <div class="css-treeview box">
   <ul>
     <li><a href="/">Главная</label></a></li>
@@ -7,19 +6,17 @@
   </ul>
 </div>
 {{ define "section-tree-nav" }}
-{{ range .Sections.Reverse}}
-<li><a href="{{ .RelPermalink}}">{{ .Params.menutitle }}</a> - {{ $.Scratch.Get "current_page_url" }}</label>
-  <ul>
-    {{ range .Pages }}
-    <li><a href="{{ .RelPermalink}}">{{ .Params.menutitle }}</a> -- {{ $.Scratch.Get "current_page_url" }}
-    {{ end }}
-      <ul>
-        {{ template "section-tree-nav" . }}
-      </ul>
-    </li>
-  </ul>
-</li>
+  {{ range .Sections.Reverse}}
+  <li><a href="{{ .RelPermalink}}">{{ .Params.menutitle }}</a></label>
+    <ul>
+      {{ range .Pages }}
+      <li><a href="{{ .RelPermalink}}">{{ .Params.menutitle }}</a>
+      {{ end }}
+        <ul>
+          {{ template "section-tree-nav" . }}
+        </ul>
+      </li>
+    </ul>
+  </li>
+  {{ end }}
 {{ end }}
-{{ end }}
-
-{{ $.Scratch.Get "current_page_url" }}
