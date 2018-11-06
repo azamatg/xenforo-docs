@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,700|Fira+Sans+Condensed:400,700&subset=cyrillic');
+
+body {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 16px;
+}
+
+a, a.disabled:hover, a:disabled:hover {
+    color: #853bff;
+}
+
+h1,h2,h3,h4,h5, .sidebar_maimenu_list_group {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: 400;
+    color: #ec7100;
+}
+
+.breadcrumb {
+    margin-top: 14px;
+}
+
+.alert, .blockquote, .breadcrumb {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: 400;
+}
+
+    .alert .badge {
+        margin-right: 5px;
+    }
+
+h2,h3,h4,h5 {
+    margin-top: 20px;
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 48px 0 0; /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #999;
+}
+
+.sidebar .nav-link.active {
+    color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+/*
+ * Content
+ */
+
+[role="main"] {
+    padding-top: 58px; /* Space for fixed navbar */
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+
+.nopadding {
+    padding: 0;
+}
+
+
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+    margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+    border-radius: 0;
+    border-width: 1px 0 0 0;
+    font-size: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 6px;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+    padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+    padding-left: 45px;
+}
+
+.list-group-item.active {
+    background-color: #7a34ff;
+}
+
+.highlight pre {
+    padding: 1em;
+}
+
+.badge {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: 400;
+    padding: 5px 7px;
+    font-weight: 400;
+    font-size: 90%;
+}
+
