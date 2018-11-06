@@ -1,10 +1,12 @@
 baseURL = "/"
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
-title = "AzmG"
+title = "Документация XenForo 2"
 theme = "bs4"
+metaDataFormat = "toml"
 enableGitInfo = true
-
+pygmentsCodeFences = true
+PygmentsStyle = "perldoc"
 
 preserveTaxonomyNames = true
 
@@ -17,14 +19,6 @@ preserveTaxonomyNames = true
   tag = "tags"
   type = "types"
 
-[[menu.sidebar]]
-  name = "Статьи"
-  url = "/posts/"
-
-[[menu.navbar]]
-name = "Статьи"
-url = "/posts/"
-
 # Theme variables
 #
 [params]
@@ -32,7 +26,7 @@ url = "/posts/"
   author = "Азамат Гилимханов"
 
   # Description/subtitle for homepage (can be Markdown)
-  description = "AzmG Site"
+  description = "Документация XenForo 2"
 
   # Show header (default: true)
   header_visible = true
@@ -40,7 +34,7 @@ url = "/posts/"
   # Format dates with Go's time formatting
   date_format = "01.02.2006"
 
-  recent_sections = [ "posts" ]
+  #recent_sections = [ "posts" ]
 
   # verification string for Google Webmaster Tools
   #google_verify_meta = "BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
@@ -70,7 +64,7 @@ url = "/posts/"
 
   [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
-    about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
+    # about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
 
     # How many posts to show on the sidebar (Default: 5)
     num_recent_posts = 10
@@ -79,7 +73,7 @@ url = "/posts/"
     # Optional, used for attribution in Twitter cards (ideally not a person
     # for example: nytimes, flickr, NatGeo, etc).
     # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "username"
+    # twitter = "username"
 
 # Default content language for Hugo 0.17's multilingual support (default is "en")
 # See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
