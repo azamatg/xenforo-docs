@@ -1,0 +1,32 @@
+<div class="sidebar_maimenu_list_group">
+
+  <div class="list-group list-group-root well">
+
+    <a href="/" class="list-group-item{{ if eq .URL "/" }} active{{ end }}">Главная страница</a>
+
+    <a href="/install-upgrade/" class="list-group-item{{ if eq .URL "/install-upgrade/" }} active{{ end }}">Установка и настройка</a>
+
+    <a href="/templating" class="list-group-item{{ if eq .URL "/templating/" }} active{{ end }}">Работа с шаблонами</a>
+
+    <div class="list-group">
+
+      <a href="/templating/template-syntax/" class="list-group-item{{ if eq .URL "/templating/template-syntax/" }} active{{ end }}">Синтаксис шаблонов</a>
+
+      <a href="/templating/designing-styles/" class="list-group-item{{ if eq .URL "/templating/designing-styles/" }} active{{ end }}">Шаблоны в файлах</a>
+
+      <a href="/templating/template-list-with-descriptions/" class="list-group-item{{ if eq .URL "/templating/template-list-with-descriptions/" }} active{{ end }}">Список шаблонов</a>
+
+      <a href="/templating/template-functions/" class="list-group-item{{ if eq .URL "/templating/template-functions/" }} active{{ end }}">Функции в шаблонах</a>
+
+      <a href="/templating/template-syntax-conditional-statements/" class="list-group-item{{ if eq .URL "/templating/template-syntax-conditional-statements/" }} active{{ end }}">Условия в шаблонах (примеры)</a>
+
+      <a href="/templating/template-syntax-tags-list/" class="list-group-item{{ if eq .URL "/templating/template-syntax-tags-list/" }} active{{ end }}">Список тегов в шаблонах</a>
+
+      <a href="/templating/template-syntax-xf-macro/" class="list-group-item{{ if eq .URL "/templating/template-syntax-xf-macro/" }} active{{ end }}">Макросы в шаблонах</a>
+
+    </div>
+
+  </div>
+
+</div>
+

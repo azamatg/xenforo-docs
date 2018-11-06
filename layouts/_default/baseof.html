@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+
+  <head>
+    {{ partial "head-meta.html" . }}
+
+    {{ block "schema-dot-org" . }}
+      <!-- schema.org metadata differs for Nodes and Pages -->
+    {{ end }}
+
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Material Design Bootstrap -->
+    <link href="{{ .Site.BaseURL }}css/mdb.min.css" rel="stylesheet">
+
+    {{ "<!-- combined, minified CSS -->" | safeHTML }}
+    <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet"{{ if not .Site.Params.disable_sri }} crossorigin="anonymous"{{ end }}>
+
+    {{ if .RSSLink }}
+    {{ "<!-- RSS 2.0 feed -->" | safeHTML }}
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ end }}
+
+    {{ template "_internal/google_analytics_async.html" . }}
+
+    {{ if .Site.Params.cookie_consent_info_url }}
+    {{ partial "cookie-consent.html" . }}
+    {{ end }}
+
+    {{ partial "head-custom.html" . }}
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="/"><i class="fa fa-home" aria-hidden="true"></i> {{ .Site.Title }}</a>
+    </nav>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+
+        <div class="sidebar-sticky">
+
+          {{ partial "sections-tree.html" . }}
+
+        </div>
+
+      </nav>
+
+      {{ block "body" . }}
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+        {{ if .IsHome }}
+        {{ else }}
+          {{ partial "breadcrumbs.html" . }}
+        {{ end }}
+
+        {{ block "main" . }}
+
+        {{ end }}
+
+      </main>
+
+      {{ end }}
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="{{ .Site.BaseURL }}js/mdb.min.js"></script>
+
+  </body>
+
+</html>
+
+{{- /* vim: set ts=2 sw=2 et: */}}
