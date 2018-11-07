@@ -16,6 +16,6 @@
 <meta name="yandex-verification" content="{{ . }}" />
 {{ end }}
 
-{{- .Hugo.Generator -}}
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
 
-{{- /* vim: set ts=2 sw=2 et: */}}
+

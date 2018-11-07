@@ -1,0 +1,27 @@
+<table class="table table-bordered table-hover">
+
+  <thead>
+
+  <tr>
+    <th scope="col">Аддон</th>
+    <th>XenForo</th>
+    <th>Тип</th>
+    <th scope="col">Краткое описание</th>
+  </tr>
+
+  </thead>
+
+  <tbody>
+
+  {{ range .Page.Sections }}
+  <tr>
+    <td><a  href="{{ .URL }}">{{ .Params.menutitle }}</a></td>
+    <td>{{ .Params.xenforo_version }}</td>
+    <td>{{ .Params.addon_type }}</td>
+    <td>{{ .Params.short_desc }}</td>
+  </tr>
+  {{ end }}
+
+  </tbody>
+
+</table>

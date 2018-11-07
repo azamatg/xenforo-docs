@@ -1,6 +1,6 @@
 +++
 title = "Аддоны XenForo"
-menutitle = "Обзорная страница"
+menutitle = "Аддоны XenForo"
 linktitle = "Аддоны"
 date = 2018-11-06T15:07:08+05:00
 draft = "false"

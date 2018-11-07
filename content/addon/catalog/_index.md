@@ -7,6 +7,6 @@ draft = "false"
 layout = "single"
 +++
 
-<a href="{{< relref "attachment-store/_index.md" >}}">Аддон Attachment Store</a>
+{{% bq class="success" %}} Каталог плагинов с описаниями и переводами{{% /bq %}}
 
-{{% section_inner_pages %}}
+{{% addon_catalog_table %}}

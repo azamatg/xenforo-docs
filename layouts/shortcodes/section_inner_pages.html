@@ -3,7 +3,7 @@
   <thead>
 
     <tr>
-      <th scope="col">Аддон</th>
+      <th scope="col">{{ .Get "name" }}</th>
       <th scope="col">Краткое описание</th>
     </tr>
 
@@ -11,7 +11,7 @@
 
   <tbody>
 
-  {{ range where (where $.Site.Pages "Section" "addon" ) ".Params.content_type" "=" "addon" }}
+  {{ range .Page.Sections }}
     <tr>
       <td><a  href="{{ .URL }}">{{ .Params.menutitle }}</a></td>
       <td>{{ .Params.short_desc }}</td>

@@ -6,6 +6,8 @@ date = 2018-11-06T18:36:36+05:00
 draft = "false"
 layout = "single"
 content_type = "addon"
+xenforo_version = "2.x"
+addon_type = "Платный"
 +++
 
 ## Краткое описание
