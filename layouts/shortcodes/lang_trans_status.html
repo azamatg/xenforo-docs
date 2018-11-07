@@ -1,0 +1,19 @@
+{{ if .Get "class" | eq "warning" }}
+  {{ $.Scratch.Set "badge" "В работе"}}
+  {{ $.Scratch.Set "title" "Перевод в разработке"}}
+{{ end }}
+
+{{ if .Get "class" | eq "success" }}
+  {{ $.Scratch.Set "badge" "Готово"}}
+  {{ $.Scratch.Set "title" "Перевод завершен"}}
+{{ end }}
+
+<div class="alert alert-{{.Get "class" }} alert_translation_status">
+  <h4 class="alert-heading"><span class="badge badge-{{.Get "class" }}">{{ $.Scratch.Get "badge" }}</span> {{ $.Scratch.Get "title" }}</h4>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: {{.Get "progress" }}%;" aria-valuenow="{{.Get "progress" }}" aria-valuemin="0" aria-valuemax="100">{{.Get "progress" }}%</div>
+  </div>
+  <p class="alert_translation_status_link_wrapper">Скачать файл перевода:
+    <a class="alert_translation_status_link" href="{{.Get "file" }}" target="_blank">{{.Get "file" }}</a>
+  </p>
+</div>

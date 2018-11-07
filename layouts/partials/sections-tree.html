@@ -1,22 +1,77 @@
 {{ $home := .Site.Home }}
-<div class="css-treeview box">
-  <ul>
-    <li><a href="/">Главная</label></a></li>
-    {{ template "section-tree-nav" $home }}
-  </ul>
-</div>
-{{ define "section-tree-nav" }}
-  {{ range .Sections.Reverse}}
-  <li><a href="{{ .RelPermalink}}">{{ .Params.menutitle }}</a></label>
-    <ul>
-      {{ range .Pages }}
-      <li><a href="{{ .RelPermalink}}">{{ .Params.menutitle }}</a>
+{{ $.Scratch.Set "this_url" .URL }}
+
+<div class="sidebar_menulist_container">
+
+  <ul class="sidebar_menulist level_0">
+
+    {{ $this_url := $.Scratch.Get "this_url" }}
+    <li class="level_0">
+      <a href="/" class="sidebar_menulist_link{{ if (eq $this_url "/") }} active{{ end }}">Главная</a>
+    </li>
+
+    {{ range .Site.Home.Sections.ByWeight }}
+
+    <li class="level_0">
+
+      {{ $this_url := $.Scratch.Get "this_url" }}
+      <a href="{{ .RelPermalink}}" class="sidebar_menulist_link{{ if (eq $this_url .RelPermalink) }} active{{ end }}">{{ .Params.menutitle }}</a>
+
+      {{ if .Sections}}
+
+      <ul class="sidebar_menulist level_1 sections_list">
+
+        {{ range .Sections.ByWeight }}
+
+        <li class="level_1">
+          {{ $this_url := $.Scratch.Get "this_url" }}
+          <a href="{{ .RelPermalink}}" class="sidebar_menulist_link{{ if (eq $this_url .RelPermalink) }} active{{ end }}">{{ .Params.menutitle }}</a>
+
+          {{ if .Sections }}
+
+          <ul class="sidebar_menulist level_2 sections_list">
+            {{ range .Sections.ByWeight }}
+            <li class="level_1">
+              {{ $this_url := $.Scratch.Get "this_url" }}
+              <a href="{{ .RelPermalink}}" class="sidebar_menulist_link{{ if (eq $this_url .RelPermalink) }} active{{ end }}">{{ .Params.menutitle }}</a>
+            </li>
+            {{ end }}
+          </ul>
+
+          {{ end }}
+
+          {{ if .Pages }}
+
+          <ul class="sidebar_menulist level_2 sections_list">
+            {{ range .Pages.ByWeight }}
+            <li class="level_1">
+              {{ $this_url := $.Scratch.Get "this_url" }}
+              <a href="{{ .RelPermalink}}" class="sidebar_menulist_link{{ if (eq $this_url .RelPermalink) }} active{{ end }}">{{ .Params.menutitle }}</a>
+            </li>
+            {{ end }}
+          </ul>
+
+          {{ end }}
+
+        </li>
+
+        {{ end }}
+
+      </ul>
+
       {{ end }}
-        <ul>
-          {{ template "section-tree-nav" . }}
-        </ul>
-      </li>
-    </ul>
-  </li>
-  {{ end }}
-{{ end }}
+
+    </li><!-- /.level_0 -->
+
+    {{ end }}
+
+    {{ range where .Site.RegularPages.ByWeight "Type" "page" }}
+    <li class="level_1">
+      {{ $this_url := $.Scratch.Get "this_url" }}
+      <a href="{{ .RelPermalink}}" class="sidebar_menulist_link{{ if (eq $this_url .RelPermalink) }} active{{ end }}">{{ .Params.menutitle }}</a>
+    </li>
+    {{ end }}
+
+  </ul>
+
+</div>

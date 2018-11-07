@@ -1,0 +1,39 @@
+{{ $home := .Site.Home }}
+{{ $.Scratch.Set "this_url" .URL }}
+
+<div class="sidebar_mainmenu_accordion list-group list-group-root well">
+
+  {{ $this_url := $.Scratch.Get "this_url" }}
+  <a href="/" class="list-group-item{{ if (eq $this_url "/") }} active{{ end }}">Главная</a>
+
+  {{ range .Site.Home.Sections.ByWeight }}
+
+    {{ $this_url := $.Scratch.Get "this_url" }}
+
+    {{ if not .Sections}}
+  <a href="{{ .RelPermalink}}" class="list-group-item{{ if (eq $this_url .RelPermalink) }} active{{ end }}">{{ .Params.menutitle }}</a>
+    {{ end }}
+
+    {{ if .Sections}}
+
+  {{ $chevron_add_class := "right" }}
+  {{ if (in $this_url .RelPermalink) }}
+    {{ $chevron_add_class = "down" }}
+  {{ end }}
+  <a href="#id_{{ .UniqueID }}" class="list-group-item" data-toggle="collapse">
+    {{ .Params.linktitle }} <i class="fa fa-chevron-{{ $chevron_add_class }} float-right" aria-hidden="true"></i>
+  </a>
+  <div class="list-group level-1 collapse{{ if (in $this_url .RelPermalink) }} show{{ end }}" id="id_{{ .UniqueID }}">
+    <a href="{{ .RelPermalink}}" class="list-group-item{{ if (eq $this_url .RelPermalink) }} active{{ end }}">{{ .Params.menutitle }}</a>
+    {{ range .Sections.ByWeight }}
+      {{ $this_url := $.Scratch.Get "this_url" }}
+    <a href="{{ .RelPermalink}}" class="list-group-item{{ if (in $this_url .RelPermalink) }} active{{ end }}">{{ .Params.menutitle }}</a>
+    {{ end }}
+  </div><!-- /.list-group level-1 -->
+
+    {{ end }}
+
+
+  {{ end }}
+
+</div><!-- /.sidebar_mainmenu_accordion -->

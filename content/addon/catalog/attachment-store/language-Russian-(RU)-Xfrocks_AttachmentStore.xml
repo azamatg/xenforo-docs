@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="Xfrocks/AttachmentStore" export_version="2">
+  <phrase title="bdattachmentstore_backup_path" addon_id="Xfrocks/AttachmentStore" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Backup Path]]></phrase>
+  <phrase title="bdattachmentstore_backup_path_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[If provided, the add-on will try to use data file in this directory in case the file path built from database record is not available.]]></phrase>
+  <phrase title="bdattachmentstore_check_file_exists_before_updating" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Check for file existence before updating]]></phrase>
+  <phrase title="bdattachmentstore_check_file_exists_before_updating_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Enable this option to make sure a file can be served with the new storage options. Depending on the current configuration, it may take a long time to check.
+]]></phrase>
+  <phrase title="bdattachmentstore_check_permission" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Enforce Attachment Permission]]></phrase>
+  <phrase title="bdattachmentstore_check_permission_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[By default, the direct-unprotected link will be given to users, giving them access to the uploaded content all the time (bypassing all permission checks). This will reduce server load significantly if your members use attachment a lot. Enable this option if you wish to enforce permission.]]></phrase>
+  <phrase title="bdattachmentstore_check_permission_s3_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Without CloudFront integration, the direct-unprotected link will be given to users, giving them access to the uploaded content all the time (bypassing all permission checks). This will reduce server load significantly if your members use attachment a lot. Enable this option if you wish to enforce permission.<br/>
+<br/>
+If you has CloudFront activated, permissions are checked all the time.]]></phrase>
+  <phrase title="bdattachmentstore_cloudfront_enabled" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Use Amazon CloudFront to serve attachments]]></phrase>
+  <phrase title="bdattachmentstore_cloudfront_enabled_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Enable this option to distribute attachments via CloudFront service. Auto-expired URLs will be used to enforce attachment permissions.]]></phrase>
+  <phrase title="bdattachmentstore_cloudfront_key_pair_id" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Key Pair ID]]></phrase>
+  <phrase title="bdattachmentstore_cloudfront_pk" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Private Key (usually start with "-----BEGIN RSA PRIVATE KEY-----")]]></phrase>
+  <phrase title="bdattachmentstore_cloudfront_pk_file_path" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Private Key file path in full (/secured/path/pk-XXX.pem)]]></phrase>
+  <phrase title="bdattachmentstore_cloudfront_ttl" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[TTL (seconds)]]></phrase>
+  <phrase title="bdattachmentstore_external_data_url" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Root URL]]></phrase>
+  <phrase title="bdattachmentstore_external_data_url_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[You can use a custom root url for attachment files instead of the default $config['externalDataUrl'] in config.php. This is helpful if you want to serve these files via a CDN or similar.]]></phrase>
+  <phrase title="bdattachmentstore_ftp_host" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Host]]></phrase>
+  <phrase title="bdattachmentstore_ftp_host_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[For advanced usage, it's possible to only enter the host here and leave some options below empty (username, password, etc.). They can be configured in config.php like below:<br />
+<br />
+<span style="font-family: monospace">$config['bdAttachmentStore_ftpServers'] = [</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;'ftp.domain.com' => [</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;&nbsp;&nbsp;'username' => 'user',</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;&nbsp;&nbsp;'password' => 'ftp@123',</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;&nbsp;&nbsp;'path' => '/home/user/domains/domain.com/public_html/data',</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;&nbsp;&nbsp;'url' => 'https://cdn.domain.com/data',</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;],</span><br />
+<span style="font-family: monospace">];</span><br />]]></phrase>
+  <phrase title="bdattachmentstore_ftp_passive" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Пассивный режим]]></phrase>
+  <phrase title="bdattachmentstore_ftp_password" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Пароль]]></phrase>
+  <phrase title="bdattachmentstore_ftp_path" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Root Upload Path]]></phrase>
+  <phrase title="bdattachmentstore_ftp_port" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Путь]]></phrase>
+  <phrase title="bdattachmentstore_ftp_url" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Root Access URL]]></phrase>
+  <phrase title="bdattachmentstore_ftp_username" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Логин]]></phrase>
+  <phrase title="bdattachmentstore_keep_local_copy" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Сохранять локальную копию]]></phrase>
+  <phrase title="bdattachmentstore_keep_local_copy_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Enable this option to keep a local copy in default locations. Doing this allow you to disable/uninstall this add-on anytime without any disruption in serving attachments.]]></phrase>
+  <phrase title="bdattachmentstore_maintain_filename" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Сохранять имя файла]]></phrase>
+  <phrase title="bdattachmentstore_maintain_filename_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Enable this option to maintain the original file name. Please note that the name will be normalized to only include valid character.]]></phrase>
+  <phrase title="bdattachmentstore_maintain_filename_format" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Формат имени файла]]></phrase>
+  <phrase title="bdattachmentstore_maintain_filename_format_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[You can specify the format for filename. Support variables are:<br/>
+- {data_id}: The unique ID of the attachment data. Should always have this to make sure attachment data doesn't overwrite each other.<br/>
+- {file_hash}: The hash generated from attachment contents.<br/>
+- {name}: The name of the uploaded file (without extension).<br/>
+- {extension}: The extension of the uploaded file.]]></phrase>
+  <phrase title="bdattachmentstore_mode_attachment" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Default]]></phrase>
+  <phrase title="bdattachmentstore_mode_external_data" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[External Data]]></phrase>
+  <phrase title="bdattachmentstore_mode_ftp" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[FTP server]]></phrase>
+  <phrase title="bdattachmentstore_mode_s3" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Amazon S3]]></phrase>
+  <phrase title="bdattachmentstore_move_attachment_data" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Move attachment data]]></phrase>
+  <phrase title="bdattachmentstore_moving_files" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Moving files]]></phrase>
+  <phrase title="bdattachmentstore_s3_bucket" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Bucket]]></phrase>
+  <phrase title="bdattachmentstore_s3_bucket_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[For advanced usage, it's possible to only enter the bucket name here and leave some options below empty (access key id, secret, etc.). They can be configured in config.php like below:<br />
+<br />
+<span style="font-family: monospace">$config['bdAttachmentStore_s3Buckets'] = [</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;'bucket.domain.com' => [</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;&nbsp;&nbsp;'key' => 'ABC123DEF',</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;&nbsp;&nbsp;'secret' => 'XYZ/321',</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;&nbsp;&nbsp;'region' => 'ap-southeast-1',</span><br />
+<span style="font-family: monospace">&nbsp;&nbsp;],</span><br />
+<span style="font-family: monospace">];</span><br />]]></phrase>
+  <phrase title="bdattachmentstore_s3_domain_name" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Domain Name]]></phrase>
+  <phrase title="bdattachmentstore_s3_domain_name_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Enter a custom domain. Leave blank if you just want to use the default one from Amazon S3.]]></phrase>
+  <phrase title="bdattachmentstore_s3_key" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Access Key ID]]></phrase>
+  <phrase title="bdattachmentstore_s3_private" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Set private access]]></phrase>
+  <phrase title="bdattachmentstore_s3_private_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Enable this option to set uploaded data to private access only. Doing this will secure your files but will make it impossible to turn off CloudFront later.]]></phrase>
+  <phrase title="bdattachmentstore_s3_protocol" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Protocol]]></phrase>
+  <phrase title="bdattachmentstore_s3_region" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Region]]></phrase>
+  <phrase title="bdattachmentstore_s3_secret" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Secret Access Key]]></phrase>
+  <phrase title="bdattachmentstore_update_storage_options" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Update attachment storage options]]></phrase>
+  <phrase title="bdattachmentstore_update_storage_options_explain" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Enter the mode and its options that need to be updated to current configuration.]]></phrase>
+  <phrase title="bdattachmentstore_updating_storage_options" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Updating storage options]]></phrase>
+  <phrase title="option.bdAttachmentStore_config" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Attachment Storage]]></phrase>
+  <phrase title="option.bdAttachmentStore_delay" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Delayed Processing]]></phrase>
+  <phrase title="option.bdAttachmentStore_ignoredExts" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Ignored Extensions]]></phrase>
+  <phrase title="option_explain.bdAttachmentStore_config" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Please choose the default working mode for attachment storage. All alternative storage engines will disable XenForo Attachment permissions with the exception of Amazon S3+CloudFront combo.]]></phrase>
+  <phrase title="option_explain.bdAttachmentStore_delay" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[By default, the add-on tries to process attachments at the time of upload. Doing that may cause significant slowness to users depending on the working mode, server resources and external network etc. You can enable this option to have the files saved in default location shortly before getting moved to permanent storage.]]></phrase>
+  <phrase title="option_explain.bdAttachmentStore_ignoredExts" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[List the file extensions that are ignored by the add-on, these files will always be saved in default location. Use spaces or line break between extensions.]]></phrase>
+  <phrase title="option_group.bdAttachmentStore" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[Attachment Store]]></phrase>
+  <phrase title="option_group_description.bdAttachmentStore" addon_id="Xfrocks/AttachmentStore" version_id="2000000" version_string="2.0.0"><![CDATA[]]></phrase>
+</language>
