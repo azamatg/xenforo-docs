@@ -3,10 +3,11 @@
   <thead>
 
   <tr>
-    <th scope="col">Аддон</th>
+    <th>Аддон</th>
     <th>XenForo</th>
     <th>Тип</th>
-    <th scope="col">Краткое описание</th>
+    <th>Краткое описание</th>
+    <th>Статус перевода</th>
   </tr>
 
   </thead>
@@ -19,6 +20,11 @@
     <td>{{ .Params.xenforo_version }}</td>
     <td>{{ .Params.addon_type }}</td>
     <td>{{ .Params.short_desc }}</td>
+    <td>
+      <div class="progress">
+        <div class="progress-bar bg-{{ if eq .Params.translation_progress "100" }}success{{ else }}warning{{ end }}" role="progressbar" style="width: {{ .Params.translation_progress }}%;" aria-valuenow="{{ .Params.translation_progress }}" aria-valuemin="0" aria-valuemax="100">{{ .Params.translation_progress }}%</div>
+      </div>
+    </td>
   </tr>
   {{ end }}
 

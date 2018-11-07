@@ -1,14 +1,13 @@
----
-title: "Работа с файлами стилей (режим разработки)"
-draft: false
----
-
-<div class="alert alert-success" role="alert">
-  <p><span class="badge badge-info">Перевод</span> Перевод официальной документации - статья <a href="https://github.com/xenforo-ltd/docs/blob/master/docs/designing-styles.md">Designing styles</a></p>
-  <div class="progress">
-    <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-  </div>
-</div>
++++
+title = "Работа с файлами стилей (режим разработки)"
+menutitle = "Работа с файлами стилей)"
+short_desc = "Работа с файлами стилей (режим разработки)"
+draft = false
+layout = "single"
+page_author = "official"
+page_progress = "100"
+show_progress = "true"
++++
 
 В XenForo 2 добавлен новый режим разработки и правки стилей и шаблонов - `Designer Mode` (режим разработки). Это набор консольных команд, которые позволяют редактировать шаблоны в виде файлов (в файловой системе вашего сервера). Также в этом режиме доступны метаданные и различная техническая информация о шаблонах, что полезно при совместной разработке с помощью систем контроля версий (Git etc.).
 

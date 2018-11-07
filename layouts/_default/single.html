@@ -15,6 +15,30 @@
     </ul>
     {{ end }}
 
+  {{ if .Params.show_progress }}
+  <hr>
+  <h2>Статус страницы</h2>
+  <div class="alert alert-{{ if eq .Page.Params.page_progress "100" }}success{{ else }}warning{{ end }}" role="alert">
+    <p>
+      {{ if eq .Page.Params.page_author "me" }}
+      <span class="badge badge-info">Авторский материал</span>
+      {{ else }}
+      <span class="badge badge-primary">Перевод</span>
+      {{ end }}
+      {{ if eq .Page.Params.page_progress "100" }}
+      <span class="badge badge-success">Завершено</span>
+      Работы по заполнению страницы завершены.
+      {{ else }}
+      <span class="badge badge-warning">В работе</span>
+      Страница на стадии заполнения/редактирования, ведутся работы.
+      {{ end }}
+    </p>
+    <div class="progress">
+      <div class="progress-bar bg-{{ if eq .Page.Params.page_progress "100" }}success{{ else }}warning{{ end }}" role="progressbar" style="width: {{ .Page.Params.page_progress }}%;" aria-valuenow="{{ .Page.Params.page_progress }}" aria-valuemin="0" aria-valuemax="100">{{ .Page.Params.page_progress }}%</div>
+    </div>
+
+  </div><!-- /.alert -->
+  {{ end }}
+
 {{ end }}
 
-{{- /* vim: set ts=2 sw=2 et: */}}

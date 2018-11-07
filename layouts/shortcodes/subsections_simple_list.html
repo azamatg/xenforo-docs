@@ -1,0 +1,5 @@
+<ul class="subsections_simple_list">
+  {{ range .Page.Sections }}
+  <li><a  href="{{ .URL }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>

@@ -1,20 +1,14 @@
----
-title: "Список тегов в шаблонах XenForo 2"
-draft: false
----
++++
+title = "Список тегов в шаблонах XenForo"
+menutitle = "Список тегов в шаблонах"
+draft = false
+layout = "single"
+page_author = "me"
+page_progress = "5"
+show_progress = "true"
++++
 
-<div class="alert alert-warning" role="alert">
-  <p>
-    <span class="badge badge-info">Своя разработка</span>
-    <span class="badge badge-warning">В работе</span> 
-    Страница на начальной стадии заполнения, ведутся работы.
-  </p>
-  <div class="progress">
-    <div class="progress-bar bg-warning" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
-  </div>
-</div>
-
-{{% bq %}}Список тегов, которые используются в шаблонах XenForo 2.{{% /bq %}}
+{{% bq %}}Список тегов, которые используются в шаблонах XenForo{{% /bq %}}
 
 ## Простой общий список тегов
 
@@ -32,6 +26,10 @@ draft: false
 - `xf:description`
 - `xf:title`
 - `xf:foreach`
+
+## Справочник по тегам (в активной разработке)
+
+{{% section_inner_pages name="Тег" %}}
 
 ## Теги форм
 

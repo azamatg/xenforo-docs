@@ -66,10 +66,14 @@ h4.alert-heading {
     padding: 0.5em 0 0.5em 1em;
     border-left: 5px solid #ddd;
     margin: 1em 0;
+    font-size: 1.1em;
 }
-.blockquote.success {
+.blockquote.alert-success {
     border-color: #48c366;
     background: #e6ffec;
+}
+.blockquote.alert-info {
+    border-color: #5db4e0;
 }
 
 h2,h3,h4,h5 {
@@ -80,6 +84,16 @@ h2,h3,h4,h5 {
     width: 16px;
     height: 16px;
     vertical-align: text-bottom;
+}
+
+main h1, main h2 {
+    /*
+    border-bottom: 2px solid #ffdcb4;
+    */
+}
+
+main h2 {
+    margin-top: 1.5em;
 }
 
 /*

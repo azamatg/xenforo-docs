@@ -1,6 +1,8 @@
 +++
 title = "Статьи по разработке шаблонов"
-menutitle = "Разработка"
+menutitle = "Статьи по разработке"
 draft = false
 layout = "single"
 +++
+
+{{% section_inner_pages name="Статья" %}}

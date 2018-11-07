@@ -1,14 +1,15 @@
----
-title: "Синтаксис шаблонов XenForo 2.x"
-draft: false
----
++++
+title = "Синтаксис шаблонов XenForo 2.x"
+menutitle = "Синтаксис шаблонов"
+draft = false
+layout = "single"
+weight = 2
+page_author = "official"
+page_progress = "15"
+show_progress = "true"
++++
 
-<div class="alert alert-warning" role="alert">
-  <p><span class="badge badge-info">Перевод</span> Перевод официальной документации - статья <a href="https://github.com/xenforo-ltd/docs/blob/master/docs/template-syntax.md">Template syntax</a></p>
-  <div class="progress">
-    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-  </div>
-</div>
+{{% bq class="success" %}}Перевод официальной документации - статья <a href="https://github.com/xenforo-ltd/docs/blob/master/docs/template-syntax.md">Template syntax</a>{{% /bq %}}
 
 Синтаксис шаблонов XenForo 2 - мощный инструмент как для разработчиков, так и для администраторов, который дает полный контроль над внешним видом страниц вашего форума.
 
