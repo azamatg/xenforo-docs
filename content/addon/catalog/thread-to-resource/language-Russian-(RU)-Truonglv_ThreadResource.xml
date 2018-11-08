@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="Truonglv/ThreadResource" export_version="2">
+  <phrase title="permission.forum_threadResource_convert" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Конвертировать тему в ресурс]]></phrase>
+  <phrase title="tl_thread_resource.assign_to_user" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Назначить юзера автором]]></phrase>
+  <phrase title="tl_thread_resource.choose_an_category" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Выберите категорию]]></phrase>
+  <phrase title="tl_thread_resource.convert" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Конвертировать]]></phrase>
+  <phrase title="tl_thread_resource.convert_to_resource" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Конвертировать в ресурс]]></phrase>
+  <phrase title="tl_thread_resource.inline_moderation_convert_threads_to_resources" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Инлайн-модерация - конвертировать темы в ресурсы]]></phrase>
+  <phrase title="tl_thread_resource.new_title" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Новый заголовок]]></phrase>
+  <phrase title="tl_thread_resource.resource_category" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Категория ресурса]]></phrase>
+  <phrase title="tl_thread_resource.resource_creator" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Автор ресурса]]></phrase>
+  <phrase title="tl_thread_resource.resource_tag_line" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Теги ресурса]]></phrase>
+  <phrase title="tl_thread_resource.resource_title" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Заголовок ресурса]]></phrase>
+  <phrase title="tl_thread_resource.resource_version" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Версия ресурса]]></phrase>
+  <phrase title="tl_thread_resource.threads_to_resources" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Темы в ресурсы]]></phrase>
+  <phrase title="tl_thread_resource.use_current_thread_creator" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Автор темы будет автором ресурса]]></phrase>
+  <phrase title="tl_thread_resource.use_current_thread_title" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Использовать текущий заголовок темы]]></phrase>
+  <phrase title="tl_thread_resource.use_current_visitor" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Использовать данные текущего посетителя]]></phrase>
+  <phrase title="tl_thread_resource.you_may_enable_xfrm_addon" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Включите аддон "Менеджер ресурсов", чтобы использовать эту функцию.]]></phrase>
+  <phrase title="tl_thread_resource.you_may_install_xfrm_addon" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Установите аддон "Менеджер ресурсов", чтобы использовать эту функцию.]]></phrase>
+  <phrase title="tl_thread_resource.you_sure_you_want_to_convert_x_threads" addon_id="Truonglv/ThreadResource" version_id="1000000" version_string="1.0.0"><![CDATA[Вы точно хотите конвертировать все {total} тем(ы) в ресурсы?]]></phrase>
+</language>

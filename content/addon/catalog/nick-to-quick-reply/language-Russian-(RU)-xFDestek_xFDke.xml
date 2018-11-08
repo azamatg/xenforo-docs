@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="xFDestek/xFDke" export_version="2">
+  <phrase title="xfd_etiket" addon_id="xFDestek/xFDke" version_id="10000010" version_string="10.0.0 Alpha"><![CDATA[Ник в ответ]]></phrase>
+  <phrase title="xfd_kullanici_etiketle" addon_id="xFDestek/xFDke" version_id="10000010" version_string="10.0.0 Alpha"><![CDATA[Добавить ник в форму быстрого ответа]]></phrase>
+</language>

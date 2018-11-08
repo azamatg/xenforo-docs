@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="XenConcept/LoginAsUser" export_version="2">
+  <phrase title="option.xc_login_as_user_conversation_content" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Содержимое переписки]]></phrase>
+  <phrase title="option.xc_login_as_user_conversation_options" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Опции переписки]]></phrase>
+  <phrase title="option.xc_login_as_user_conversation_title" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Название переписки]]></phrase>
+  <phrase title="option.xc_login_as_user_enable_stealth_login" addon_id="XenConcept/LoginAsUser" version_id="2000100" version_string="2.0.1"><![CDATA[Разрешить тайный вход]]></phrase>
+  <phrase title="option.xc_login_as_user_no_display_tabs" addon_id="XenConcept/LoginAsUser" version_id="2000300" version_string="2.0.3"><![CDATA[Не показывать кнопку "Войти под юзером"]]></phrase>
+  <phrase title="option.xc_login_as_user_send_conversation" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Отправить переписку?]]></phrase>
+  <phrase title="option_explain.xc_login_as_user_conversation_content" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xc_login_as_user_conversation_options" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xc_login_as_user_conversation_title" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Название переписки]]></phrase>
+  <phrase title="option_explain.xc_login_as_user_enable_stealth_login" addon_id="XenConcept/LoginAsUser" version_id="2000100" version_string="2.0.1"><![CDATA[Если включено, в статусе юзера не будет видно, что он онлайн, также история его посещений и время последнего посещения не будут изменены (обновлены).]]></phrase>
+  <phrase title="option_explain.xc_login_as_user_no_display_tabs" addon_id="XenConcept/LoginAsUser" version_id="2000300" version_string="2.0.3"><![CDATA[Не показывать кнопку в тултипе юзера и на странице профиля.]]></phrase>
+  <phrase title="option_explain.xc_login_as_user_send_conversation" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_group.xc_login_as_user" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[[XenConcept] Логин под другим юзером]]></phrase>
+  <phrase title="option_group_description.xc_login_as_user" addon_id="XenConcept/LoginAsUser" version_id="2000100" version_string="2.0.1"><![CDATA[Настройки аддона "Логин под другим юзером".]]></phrase>
+  <phrase title="permission.general_loginAsUser" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Войти под другим юзером]]></phrase>
+  <phrase title="xc_login_as_user" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Войти как юзер]]></phrase>
+  <phrase title="xc_login_as_user_does_not_exist" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Этого юзера не существует.]]></phrase>
+  <phrase title="xc_login_as_user_please_select_user" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Пожалуйста, выберите юзера]]></phrase>
+  <phrase title="xc_login_as_user_reason" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Причина]]></phrase>
+  <phrase title="xc_login_as_user_revert_user" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Вернуть юзера ({username})]]></phrase>
+  <phrase title="xc_login_as_user_user" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Юзер]]></phrase>
+  <phrase title="xc_login_as_user_you_can_not_select_multiple_users" addon_id="XenConcept/LoginAsUser" version_id="2000000" version_string="2.0.0"><![CDATA[Вы не можете выбрать несколько юзеров одновременно.]]></phrase>
+</language>

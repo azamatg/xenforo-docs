@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="SV/ChangePostDate" export_version="2">
+  <phrase title="mod_log.post_change_date" addon_id="SV/ChangePostDate" version_id="2000000" version_string="2.0.0"><![CDATA[Дата поста изменена с {old_date} на {new_date}]]></phrase>
+  <phrase title="moderator_log_post_change_date" addon_id="SV/ChangePostDate" version_id="10000" version_string="1.0.0"><![CDATA[Дата поста изменена с {old_date} на {new_date}]]]></phrase>
+  <phrase title="permission.forum_SV_ChangePostDate" addon_id="SV/ChangePostDate" version_id="10000" version_string="1.0.0"><![CDATA[Изменить дату поста]]></phrase>
+  <phrase title="permission_forum_SV_ChangePostDate" addon_id="SV/ChangePostDate" version_id="10000" version_string="1.0.0"><![CDATA[Изменить дату поста]]></phrase>
+  <phrase title="sv_change_date_for_post" addon_id="SV/ChangePostDate" version_id="10000" version_string="1.0.0"><![CDATA[Изменить дату для поста #{number}]]></phrase>
+  <phrase title="sv_change_post_date" addon_id="SV/ChangePostDate" version_id="10000" version_string="1.0.0"><![CDATA[Изменить дату поста]]></phrase>
+  <phrase title="sv_new_date" addon_id="SV/ChangePostDate" version_id="10000" version_string="1.0.0"><![CDATA[Новая дата]]></phrase>
+  <phrase title="sv_please_enter_valid_date_format" addon_id="SV/ChangePostDate" version_id="10000" version_string="1.0.0"><![CDATA[Пожалуйста, введите верный формат даты]]></phrase>
+  <phrase title="sv_please_select_at_most_one_post" addon_id="SV/ChangePostDate" version_id="10000" version_string="1.0.0"><![CDATA[Пожалуйста, выберите как минимум один пост.]]></phrase>
+</language>

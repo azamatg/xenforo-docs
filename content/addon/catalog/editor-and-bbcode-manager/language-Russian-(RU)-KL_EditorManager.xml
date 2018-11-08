@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="KL/EditorManager" export_version="2">
+  <phrase title="admin_navigation.em" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Менеджер кнопок и кодов]]></phrase>
+  <phrase title="admin_navigation.emFonts" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Интегрированные шрифты]]></phrase>
+  <phrase title="admin_navigation.emLayout" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Раскладка тулбара с кнопками в редакторе]]></phrase>
+  <phrase title="admin_navigation.emOptions" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Настройки редактора и BB-кодов]]></phrase>
+  <phrase title="admin_navigation.emTemplates" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Публичные шаблоны редактора]]></phrase>
+  <phrase title="admin_navigation.klEMSpecialChars" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Специальные символы]]></phrase>
+  <phrase title="cron_entry.klEMGoogleFontUpdate" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[[KL] Менеджер кнопок и кодов - Обновить список шрифтов Google Fonts]]></phrase>
+  <phrase title="kl_em_activate_special_chars_first" addon_id="KL/EditorManager" version_id="1000053" version_string="1.0.0 Release Candidate 2"><![CDATA[Кнопка специальных символов не включена в настройках редактора. Изменения, которые вы делаете здесь, не будут видны юзерам, пока вы не включите эту кнопку в настройках.]]></phrase>
+  <phrase title="kl_em_active" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Активно]]></phrase>
+  <phrase title="kl_em_add_dropdown" addon_id="KL/EditorManager" version_id="1000034" version_string="1.0.0 Beta 4"><![CDATA[Добавить выпадающий список]]></phrase>
+  <phrase title="kl_em_add_font" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Добавить шрифт]]></phrase>
+  <phrase title="kl_em_add_template" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Добавить шаблон]]></phrase>
+  <phrase title="kl_em_align_justify" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Выравнивание по ширине]]></phrase>
+  <phrase title="kl_em_available_buttons" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Доступные кнопки]]></phrase>
+  <phrase title="kl_em_background_color" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Цвет подложки]]></phrase>
+  <phrase title="kl_em_bb_code_b_u_i_s_desc" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[Applies basic formatting to the wrapped text.]]></phrase>
+  <phrase title="kl_em_bb_code_color_font_size_desc" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[Applies advanced formatting to the wrapped text.]]></phrase>
+  <phrase title="kl_em_bb_code_help_align_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[LEFT]Left-aligned[/LEFT]
+[CENTER]Center-aligned[/CENTER]
+[RIGHT]Right-aligned[/RIGHT]
+[JUSTIFY]This is a justified text block with a long content to demonstrate the justification.[/JUSTIFY]]]></phrase>
+  <phrase title="kl_em_bb_code_help_align_title" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[LEFT], [CENTER], [RIGHT], [JUSTIFY] - Text alignment]]></phrase>
+  <phrase title="kl_em_bb_code_help_bgcolor_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[This is text with [BGCOLOR=#ffaaaa]red[/BGCOLOR] and [BGCOLOR=#aaaaff]blue[/BGCOLOR] background.]]></phrase>
+  <phrase title="kl_em_bb_code_help_bold_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[This is [B]bold[/B] text.]]></phrase>
+  <phrase title="kl_em_bb_code_help_color_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[This is [COLOR=red]red[/COLOR] and [COLOR=#0000cc]blue[/COLOR] text.]]></phrase>
+  <phrase title="kl_em_bb_code_help_font_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[This is [FONT=Courier New]Courier New[/FONT] text.]]></phrase>
+  <phrase title="kl_em_bb_code_help_hide_desc" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[Hide content from users depending on various circumstances. [HIDEREPLY] - Hides content until user has replied to the subject. [HIDETHANKS] - Hides content until user has liked the content. [HIDEREPLYTHANKS] - Hides content until user has replied to the subject or liked the content. [HIDEPOSTS] - Hides content until user has a certain number of posts. [HIDE] - Works like {hide}.]]></phrase>
+  <phrase title="kl_em_bb_code_help_hide_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[HIDE]You can view this content.[/HIDE]
+[HIDEREPLY]You can view this content.[/HIDEREPLY]
+[HIDETHANKS]You can view this content.[/HIDETHANKS]
+[HIDEREPLYTHANKS]You can view this content.[/HIDEREPLYTHANKS]
+[HIDEPOSTS]You can view this content.[/HIDEPOSTS]]]></phrase>
+  <phrase title="kl_em_bb_code_help_hide_title" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[HIDE], [HIDEREPLY], [HIDETHANKS], [HIDEPOSTS], [HIDEREPLYPOSTS] - Hide content from users]]></phrase>
+  <phrase title="kl_em_bb_code_help_ispoiler_example" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[This is a [ISPOILER]Simple spoiler[/ISPOILER].
+This is a [ISPOILER=Spoiler]with a title[/ISPOILER].]]></phrase>
+  <phrase title="kl_em_bb_code_help_ispoiler_title" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[[ISPOILER] - Inline text containing spoilers]]></phrase>
+  <phrase title="kl_em_bb_code_help_italic_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[This is [I]italic[/I] text.]]></phrase>
+  <phrase title="kl_em_bb_code_help_separator" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[,]]></phrase>
+  <phrase title="kl_em_bb_code_help_separator2" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[-]]></phrase>
+  <phrase title="kl_em_bb_code_help_size_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[This is [SIZE=1]small[/SIZE] and [SIZE={max}]big[/SIZE] text.]]></phrase>
+  <phrase title="kl_em_bb_code_help_strike_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[This is [S]struck-through[/S] text.]]></phrase>
+  <phrase title="kl_em_bb_code_help_sub_example" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[This text contains [SUB]subscript[/SUB].]]></phrase>
+  <phrase title="kl_em_bb_code_help_sup_example" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[This text contains [SUP]superscript[/SUP].]]></phrase>
+  <phrase title="kl_em_bb_code_help_table_advanced_desc" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[Changes vertical align of table cells and table header cells.]]></phrase>
+  <phrase title="kl_em_bb_code_help_table_advanced_example" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[[TABLE][TR]
+[TD]1
+2
+3[/TD][TD=top]Top[/TD]
+[TD=middle]Middle[/TD]
+[TD=bottom]Bottom[/TD]
+[/TR][/TABLE]]]></phrase>
+  <phrase title="kl_em_bb_code_help_table_advanced_title" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[TH=<span class="block-textHeader-highlight">vertical align</span>], [TD=<span class="block-textHeader-highlight">vertical align</span>] - Tables (Advanced)]]></phrase>
+  <phrase title="kl_em_bb_code_help_table_classes_desc" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Changes the appearance of tables depending on the classes chosen. Multiple classes can be used, separated by a space.]]></phrase>
+  <phrase title="kl_em_bb_code_help_table_classes_example" addon_id="KL/EditorManager" version_id="1000054" version_string="1.0.0 Release Candidate 4"><![CDATA[[TABLE=nofullwidth]
+[TR][TD]A table that is not full width[/TD][/TR][/TABLE]
+
+[TABLE=center-nofullwidth]
+[TR][TD]A centered table.[/TD][/TR][/TABLE]
+
+[TABLE=right-nofullwidth]
+[TR][TD]A right aligned table.[/TD][/TR][/TABLE]
+
+[TABLE=noborder]
+[TR][TD]A table with no border.[/TD][/TR][/TABLE]
+
+[TABLE=nobackground]
+[TR][TD]A table that[/TD][/TR][TR][TD]doesn't color rows differently[/TD][/TR][/TABLE]
+
+[TABLE=collapse]
+[TR][TD]A table that[/TD][TD] has non-equal width columns.[/TD][/TR][/TABLE]]]></phrase>
+  <phrase title="kl_em_bb_code_help_table_classes_title" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[[TABLE=class] - Tables (Advanced)]]></phrase>
+  <phrase title="kl_em_bb_code_help_table_desc" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[Use [TR] tags to start new rows inside a table tag. Use [TD] tags to start new cells inside row tags. Use [TH] to start new table header cells inside table rows.]]></phrase>
+  <phrase title="kl_em_bb_code_help_table_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[TABLE]
+[TR]
+[TH]Header 1[/TH]
+[TH]Header 2[/TH]
+[/TR]
+[TR]
+[TD]Cell 1 1[/TD]
+[TD]Cell 1 2[/TD]
+[/TR]
+[TR]
+[TD]Cell 2 1[/TD]
+[TD]Cell 2 2[/TD]
+[/TR]
+[/TABLE]]]></phrase>
+  <phrase title="kl_em_bb_code_help_table_title" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[TABLE], [TR], [TH], [TD] - Tables]]></phrase>
+  <phrase title="kl_em_bb_code_help_underline_example" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[This is [U]underlined[/U] text.]]></phrase>
+  <phrase title="kl_em_bb_code_sub_sup_desc" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Offset wrapped text.]]></phrase>
+  <phrase title="kl_em_bgcolor_code" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[BGCOLOR=<span class="block-textHeader-highlight">color</span>]]]></phrase>
+  <phrase title="kl_em_blacklist" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Blacklist]]></phrase>
+  <phrase title="kl_em_bold" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Bold]]></phrase>
+  <phrase title="kl_em_bold_code" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[B]]]></phrase>
+  <phrase title="kl_em_bottom" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Bottom]]></phrase>
+  <phrase title="kl_em_chose_file" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[-Chose File-]]></phrase>
+  <phrase title="kl_em_client" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Clientside]]></phrase>
+  <phrase title="kl_em_client_explanation" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Clientside fonts are fonts, that are already available on your users devices. The advantage is clearly, that they do not need to be downloaded to the device, when the page is loaded. However, this brings a severe disadvantage: If a user does not already have the font, it cannot be rendered for him. If none of the fonts in the font stack is available to him, his system will use the default font instead. It is recommended to carefully consider the font collection before chosing this option.]]></phrase>
+  <phrase title="kl_em_color_code" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[COLOR=<span class="block-textHeader-highlight">color</span>]]]></phrase>
+  <phrase title="kl_em_column" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Column]]></phrase>
+  <phrase title="kl_em_custom_dropdowns" addon_id="KL/EditorManager" version_id="1000034" version_string="1.0.0 Beta 4"><![CDATA[Dropdowns]]></phrase>
+  <phrase title="kl_em_delete_column" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Delete Column]]></phrase>
+  <phrase title="kl_em_delete_row" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Delete Row]]></phrase>
+  <phrase title="kl_em_disable_smilie_button" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Disable smilie button]]></phrase>
+  <phrase title="kl_em_dropdown_content" addon_id="KL/EditorManager" version_id="1000034" version_string="1.0.0 Beta 4"><![CDATA[Dropdown content]]></phrase>
+  <phrase title="kl_em_dropdown_edit" addon_id="KL/EditorManager" version_id="1000034" version_string="1.0.0 Beta 4"><![CDATA[Edit Dropdown]]></phrase>
+  <phrase title="kl_em_edit_font" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Edit Font]]></phrase>
+  <phrase title="kl_em_edit_template" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Edit Template]]></phrase>
+  <phrase title="kl_em_editor_templates" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Editor Templates]]></phrase>
+  <phrase title="kl_em_enable_charcounter" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Enable character counter]]></phrase>
+  <phrase title="kl_em_enable_external_font_polling" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Enable external font polling]]></phrase>
+  <phrase title="kl_em_enable_fullscreen_button" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Enable fullscreen button]]></phrase>
+  <phrase title="kl_em_enable_image_align" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Enable image alignment]]></phrase>
+  <phrase title="kl_em_enable_special_characters" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Enable special characters button]]></phrase>
+  <phrase title="kl_em_enabled_bbcodes" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Enabled BB codes]]></phrase>
+  <phrase title="kl_em_external_font_list_explain" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[If whitelist mode is enabled, this is a list of all fonts that can be used by your users via font polling. If blacklist mode is enabled instead, this is a list of all fonts that cannot be used. Separate multiple entries with line breaks.]]></phrase>
+  <phrase title="kl_em_external_font_polling_explain" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[If enabled, users with the required permission can use Google Fonts as they wish, which will be loaded when required. This differs from integrated Google Fonts which will be loaded on all XenForo-driven pages.]]></phrase>
+  <phrase title="kl_em_external_fonts" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[External Fonts]]></phrase>
+  <phrase title="kl_em_file" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[File]]></phrase>
+  <phrase title="kl_em_font" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[Font]]></phrase>
+  <phrase title="kl_em_font_code" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[FONT=<span class="block-textHeader-highlight">name</span>]]]></phrase>
+  <phrase title="kl_em_font_family" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Font Family]]></phrase>
+  <phrase title="kl_em_font_id" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Font ID]]></phrase>
+  <phrase title="kl_em_font_preview_sentence" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Pack my box with five dozen liquor jugs.]]></phrase>
+  <phrase title="kl_em_font_sizes" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Font Sizes]]></phrase>
+  <phrase title="kl_em_font_type" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Type]]></phrase>
+  <phrase title="kl_em_font_url" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[URL]]></phrase>
+  <phrase title="kl_em_fullscreen" addon_id="KL/EditorManager" version_id="1000034" version_string="1.0.0 Beta 4"><![CDATA[Fullscreen]]></phrase>
+  <phrase title="kl_em_general_options" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[General Options]]></phrase>
+  <phrase title="kl_em_gfont" addon_id="KL/EditorManager" version_id="1000053" version_string="1.0.0 Release Candidate 2"><![CDATA[Google Font]]></phrase>
+  <phrase title="kl_em_gfont_preview" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Preview]]></phrase>
+  <phrase title="kl_em_google_font" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Google Font]]></phrase>
+  <phrase title="kl_em_google_font_name" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Font Name]]></phrase>
+  <phrase title="kl_em_hidden_content" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Hidden Content]]></phrase>
+  <phrase title="kl_em_hide" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Hide]]></phrase>
+  <phrase title="kl_em_hide_default_option" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Default Hide Version]]></phrase>
+  <phrase title="kl_em_hide_number_of_posts" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Number of posts for Post Hide]]></phrase>
+  <phrase title="kl_em_hide_posts" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Hide until number of posts]]></phrase>
+  <phrase title="kl_em_hide_reply" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Hide until replied]]></phrase>
+  <phrase title="kl_em_hide_reply_thanks" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Hide until replied or liked]]></phrase>
+  <phrase title="kl_em_hide_thanks" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Hide until liked]]></phrase>
+  <phrase title="kl_em_horizontal_align" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Horizontal Align]]></phrase>
+  <phrase title="kl_em_hoster" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Hosting Service]]></phrase>
+  <phrase title="kl_em_icon" addon_id="KL/EditorManager" version_id="1000034" version_string="1.0.0 Beta 4"><![CDATA[Icon]]></phrase>
+  <phrase title="kl_em_included_excluded_fonts" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Included/Excluded Fonts]]></phrase>
+  <phrase title="kl_em_inline_spoiler" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Inline Spoiler]]></phrase>
+  <phrase title="kl_em_insert_column_after" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Insert Column After]]></phrase>
+  <phrase title="kl_em_insert_column_before" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Insert Column Before]]></phrase>
+  <phrase title="kl_em_insert_gfont" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Insert Google Font]]></phrase>
+  <phrase title="kl_em_insert_row_above" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Insert Row Above]]></phrase>
+  <phrase title="kl_em_insert_row_below" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Insert Row Below]]></phrase>
+  <phrase title="kl_em_invalid_file" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Invalid font file selected. Either the file has been deleted from the server or no file has been selected.]]></phrase>
+  <phrase title="kl_em_invalid_service_url" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[The URL is invalid. Please ensure to select the right hosting service and ensure that the URL does look like depicted in the example.]]></phrase>
+  <phrase title="kl_em_italic_code" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[I]]]></phrase>
+  <phrase title="kl_em_keep_format_on_delete" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Keep text format on character deletion]]></phrase>
+  <phrase title="kl_em_layout" addon_id="KL/EditorManager" version_id="1000034" version_string="1.0.0 Beta 4"><![CDATA[Layout]]></phrase>
+  <phrase title="kl_em_layout_explanation" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[This page allows you to define the order of buttons, that are shown in your editor toolbar. You may remove any button from any of the four toolbars by dragging it out of the toolbar. You can also add new buttons from the bar above, which holds a list of all available buttons, by dragging them to where you want to have them.]]></phrase>
+  <phrase title="kl_em_many_external_fonts_warning" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[You are using a lot of fonts, that are either hosted from your server or external services. This will slow down your page and will have a negative impact on your user experience. You should consider to reduce the number of fonts you host from external sources.]]></phrase>
+  <phrase title="kl_em_middle" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Middle]]></phrase>
+  <phrase title="kl_em_mode" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Mode]]></phrase>
+  <phrase title="kl_em_need_x_more_posts_to_view_content" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[You need {needs} more posts to view this content.]]></phrase>
+  <phrase title="kl_em_not_allowed_to_view_this_content" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[You are not allowed to view this content.]]></phrase>
+  <phrase title="kl_em_parse_html" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Parse Html]]></phrase>
+  <phrase title="kl_em_paste_plain" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Remove format on paste]]></phrase>
+  <phrase title="kl_em_position_of_this_item" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[The position of this font.]]></phrase>
+  <phrase title="kl_em_remove_table" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Remove Table]]></phrase>
+  <phrase title="kl_em_row" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Row]]></phrase>
+  <phrase title="kl_em_separator" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Separator]]></phrase>
+  <phrase title="kl_em_size_code" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[SIZE=<span class="block-textHeader-highlight">size</span>]]]></phrase>
+  <phrase title="kl_em_sort_fonts" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Sort Fonts]]></phrase>
+  <phrase title="kl_em_sort_special_chars" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Sort special character categories]]></phrase>
+  <phrase title="kl_em_sort_templates" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Sort Templates]]></phrase>
+  <phrase title="kl_em_special_characters" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Special Characters]]></phrase>
+  <phrase title="kl_em_special_chars" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Special characters]]></phrase>
+  <phrase title="kl_em_special_chars_add" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Add category]]></phrase>
+  <phrase title="kl_em_special_chars_add_character" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Add character]]></phrase>
+  <phrase title="kl_em_special_chars_category_add" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Add category]]></phrase>
+  <phrase title="kl_em_special_chars_category_edit" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Edit category]]></phrase>
+  <phrase title="kl_em_special_chars_char" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Character code]]></phrase>
+  <phrase title="kl_em_special_chars_description" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Description]]></phrase>
+  <phrase title="kl_em_special_chars_edit_character" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Edit character]]></phrase>
+  <phrase title="kl_em_special_chars_import" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Import]]></phrase>
+  <phrase title="kl_em_struck_through" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[Struck-through]]></phrase>
+  <phrase title="kl_em_struck_through_code" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[S]]]></phrase>
+  <phrase title="kl_em_subscript" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Subscript]]></phrase>
+  <phrase title="kl_em_subscript_code" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[[SUB]]]></phrase>
+  <phrase title="kl_em_superscript" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Superscript]]></phrase>
+  <phrase title="kl_em_superscript_code" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[[SUP]]]></phrase>
+  <phrase title="kl_em_table" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Table]]></phrase>
+  <phrase title="kl_em_table_header" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Table Header]]></phrase>
+  <phrase title="kl_em_templates" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Templates]]></phrase>
+  <phrase title="kl_em_toolbarButtons" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Toolbar (> 1200px)]]></phrase>
+  <phrase title="kl_em_toolbarButtonsMD" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Medium Toolbar (1200 - 992px)]]></phrase>
+  <phrase title="kl_em_toolbarButtonsSM" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Small Toolbar (992 - 768px)]]></phrase>
+  <phrase title="kl_em_toolbarButtonsXS" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Extra Small Toolbar (< 768px)]]></phrase>
+  <phrase title="kl_em_top" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Top]]></phrase>
+  <phrase title="kl_em_underline_code" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[[U]]]></phrase>
+  <phrase title="kl_em_unlink_all" addon_id="KL/EditorManager" version_id="1000170" version_string="1.0.1"><![CDATA[Remove all links]]></phrase>
+  <phrase title="kl_em_unlink_all_links" addon_id="KL/EditorManager" version_id="1000170" version_string="1.0.1"><![CDATA[Remove all links]]></phrase>
+  <phrase title="kl_em_upload" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Serverside]]></phrase>
+  <phrase title="kl_em_upload_explanation" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Serverside fonts are hosted directly from your server. You will have to manually upload these fonts to the <code class="bbCodeInline">data/fonts/</code>-directory inside your XenForo installation. Supported file types are <code class="bbCodeInline">woff2, woff, ttf, otf, eot & svg</code>. It is recommended, to provide a <code class="bbCodeInline">woff2</code> file. Your uploaded files will be matched into a set by the system and will be listed below. Ensure, that they all share the same name in order to have them listed in a single group. You will have to resave the font, if you decide to upload additional file types later on. The filename will match the font family.]]></phrase>
+  <phrase title="kl_em_use_extended_colorpicker" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Use Extended Colorpicker]]></phrase>
+  <phrase title="kl_em_vertical_align" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Vertical Align]]></phrase>
+  <phrase title="kl_em_web" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[External (Web)]]></phrase>
+  <phrase title="kl_em_web_explanation" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[External fonts are fonts, that are neither already on your clients device nor hosted on your own server. They are resources, that are located somewhere else on the web. The main advantages of using these fonts are the large choice of available fonts from different hosters, the bandwidth you save by not having to provide them to the users yourself and the likelyhood of those fonts already being in the cache of your users from a different website they visited before.]]></phrase>
+  <phrase title="kl_em_websafe_font_stacks" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Web Safe Font Stacks]]></phrase>
+  <phrase title="kl_em_websafe_font_stacks_description" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[In the following you find a list of font stacks, that are so widely spread, that the likelyhood of one of your users not having the font is very low. Due to this circumstance, they're considered to be <strong>web safe</strong> - safe to be used on your website.]]></phrase>
+  <phrase title="kl_em_where_to_find_the_url" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Where to find the URL:]]></phrase>
+  <phrase title="kl_em_whitelist" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Whitelist]]></phrase>
+  <phrase title="kl_em_you_need_to_like_or_reply_to_this" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[You need to like or reply to this in order to see this content.]]></phrase>
+  <phrase title="kl_em_you_need_to_like_this" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[You need to like this in order to view this content.]]></phrase>
+  <phrase title="kl_em_you_need_to_reply_to_this" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[You need to reply to this in order to see this content.]]></phrase>
+  <phrase title="option.klEMColorStep" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Colors per row]]></phrase>
+  <phrase title="option.klEMColors" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Available Colors]]></phrase>
+  <phrase title="option.klEMDefaultHide" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Default hide version]]></phrase>
+  <phrase title="option.klEMEnabledBBCodes" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Enabled BB Codes]]></phrase>
+  <phrase title="option.klEMExternalFontPolling" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Enable external font polling]]></phrase>
+  <phrase title="option.klEMFontSizes" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Pre-defined font sizes]]></phrase>
+  <phrase title="option.klEMGeneralOptions" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[General options]]></phrase>
+  <phrase title="option.klEMGoogleApiKey" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Google Fonts API Key]]></phrase>
+  <phrase title="option.klEMHexColor" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Hex Color Input]]></phrase>
+  <phrase title="option.klEMLateLoad" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Delay Load]]></phrase>
+  <phrase title="option.klEMLayout" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Editor Toolbar Layout]]></phrase>
+  <phrase title="option.klEMMaxFontSize" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Maximum manual font size]]></phrase>
+  <phrase title="option.klEMMinFontSize" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Minimum manual font size]]></phrase>
+  <phrase title="option.klEMSpecialChars" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[Special Characters]]></phrase>
+  <phrase title="option_explain.klEMColorStep" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[The number of colors per row in the editor color select dropdown.]]></phrase>
+  <phrase title="option_explain.klEMColors" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[The set of available colors to pick from using the color picker dropdown, separated by comma. Colors are displayed as a set of 7 per line in the editor. <em>REMOVE</em> for the remove color button.]]></phrase>
+  <phrase title="option_explain.klEMDefaultHide" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[The hide-version the default [hide] code will act like.]]></phrase>
+  <phrase title="option_explain.klEMEnabledBBCodes" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[]]></phrase>
+  <phrase title="option_explain.klEMExternalFontPolling" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[If enabled, users that have been granted the permission will be able to utilize the whole Google Fonts library in their BB code content, no matter if they have been integrated into your web page or not. If they're not already included, they will be loaded on demand.]]></phrase>
+  <phrase title="option_explain.klEMFontSizes" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Available sizes in the editor font size dropdown, separated by comma.]]></phrase>
+  <phrase title="option_explain.klEMGeneralOptions" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[]]></phrase>
+  <phrase title="option_explain.klEMGoogleApiKey" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[If you enter a Google Font API key here, your board will be able to automatically update the google fonts list by itself once a week and provider your users with suggestions when they search for a google font in the BB Code editor.]]></phrase>
+  <phrase title="option_explain.klEMHexColor" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[If enabled, will show a hex color code input, to allow users to chose their own text color.]]></phrase>
+  <phrase title="option_explain.klEMLateLoad" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[If enabled, a placeholder will be shown and the editor will only load, if the user clicks into the placeholder area. This will speed up page load.]]></phrase>
+  <phrase title="option_explain.klEMLayout" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[The editor toolbar layout. It is recommended to edit this option from <a href="admin.php?em/layout/">here</a>.]]></phrase>
+  <phrase title="option_explain.klEMMaxFontSize" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[The maximum font size that can be specified (in pixel). 0 for no limit.]]></phrase>
+  <phrase title="option_explain.klEMMinFontSize" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[The minimum font size that can be specified (in pixel).]]></phrase>
+  <phrase title="option_explain.klEMSpecialChars" addon_id="KL/EditorManager" version_id="1000039" version_string="1.0.0 Beta 7"><![CDATA[The special characters popup list. It is recommended to edit this option from <a href="admin.php?em/special-chars/">here</a>.]]></phrase>
+  <phrase title="option_group.klEM" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Editor & BB code options]]></phrase>
+  <phrase title="option_group_description.klEM" addon_id="KL/EditorManager" version_id="1000037" version_string="1.0.0 Beta 7"><![CDATA[Options centered around the Froala Editor and the BB code engine.]]></phrase>
+  <phrase title="permission.klEM_klEMBypassHide" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Bypass Hide BB Codes]]></phrase>
+  <phrase title="permission.klEM_klEMHTMLBBC" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Use HTML BB Code]]></phrase>
+  <phrase title="permission.klEM_klEMHidePostCount" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Postcount for hides]]></phrase>
+  <phrase title="permission.klEM_klEMPrivateTemplates" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Create private templates]]></phrase>
+  <phrase title="permission.klEM_klEMPrivateTemplatesMax" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Maximum private templates]]></phrase>
+  <phrase title="permission.klEM_klEMPublicTemplates" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Use public templates]]></phrase>
+  <phrase title="permission.klEM_klEMTemplates" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Use template system]]></phrase>
+  <phrase title="permission.klEM_klEMUseGoogleFonts" addon_id="KL/EditorManager" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Use all Google Webfonts]]></phrase>
+  <phrase title="permission_interface.klEM" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Editor Manager permissions]]></phrase>
+  <phrase title="permission_interface.klEMModerator" addon_id="KL/EditorManager" version_id="1000033" version_string="1.0.0 Beta 3"><![CDATA[Editor Manager moderator permissions]]></phrase>
+  <phrase title="style_prop.klEMCharCounter" addon_id="KL/EditorManager" version_id="1000170" version_string="1.0.1"><![CDATA[[KL] Editor Manager - Character Counter]]></phrase>
+  <phrase title="style_prop.klEMHideHidden" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[BB code block - hide (hidden)]]></phrase>
+  <phrase title="style_prop.klEMHideShown" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[BB code block - hide (shown)]]></phrase>
+  <phrase title="style_prop.klEMTableAlternatingCell" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[BB code block - table alternating cell]]></phrase>
+  <phrase title="style_prop.klEMTableBlock" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[BB code block - table]]></phrase>
+  <phrase title="style_prop.klEMTableCell" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[BB code block - table cell]]></phrase>
+  <phrase title="style_prop.klEMTableTH" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[BB code block - table header]]></phrase>
+  <phrase title="style_prop.klEMiSpoilerButton" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[BB code block - inline spoiler button]]></phrase>
+  <phrase title="style_prop.klEMiSpoilerButtonActive" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[BB code block - inline spoiler button (active)]]></phrase>
+  <phrase title="style_prop.klEMiSpoilerButtonIcon" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[BB code block - inline spoiler button icon]]></phrase>
+  <phrase title="style_prop.klEMiSpoilerButtonIconActive" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[BB code block - inline spoiler button icon (active)]]></phrase>
+  <phrase title="style_prop.klEMiSpoilerButtonTitle" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[BB code block - inline spoiler button title]]></phrase>
+  <phrase title="style_prop.klEMiSpoilerContent" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[BB code block - inline spoiler content]]></phrase>
+  <phrase title="style_prop.klEMiSpoilerContentActive" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[BB code block - inline spoiler content (active)]]></phrase>
+  <phrase title="style_prop_desc.klEMCharCounter" addon_id="KL/EditorManager" version_id="1000170" version_string="1.0.1"><![CDATA[Styling properties for the character counter.]]></phrase>
+  <phrase title="style_prop_desc.klEMHideHidden" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Special styling rules for the hide BB codes ([HIDE], [HIDEREPLY], [HIDETHANKS], [HIDEREPLYTHANKS], [HIDEPOSTS]) content in hidden state.]]></phrase>
+  <phrase title="style_prop_desc.klEMHideShown" addon_id="KL/EditorManager" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Special styling rules for the hide BB codes ([HIDE], [HIDEREPLY], [HIDETHANKS], [HIDEREPLYTHANKS], [HIDEPOSTS]) content in shown state.]]></phrase>
+  <phrase title="style_prop_desc.klEMTableAlternatingCell" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Extra design for the cells in every 2nd row.]]></phrase>
+  <phrase title="style_prop_desc.klEMTableBlock" addon_id="KL/EditorManager" version_id="0" version_string="0.0.0 Alpha"><![CDATA[Special styling rules for table ([TABLE]) elements.]]></phrase>
+  <phrase title="style_prop_desc.klEMTableCell" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Special styling rules for table cell ([TD], [TH]) elements.]]></phrase>
+  <phrase title="style_prop_desc.klEMTableTH" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Special styling rules for table header cell ([TH]) elements.]]></phrase>
+  <phrase title="style_prop_desc.klEMiSpoilerButton" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Special styling rules for the inline spoiler ([ISPOILER]) show/hide toggle button.]]></phrase>
+  <phrase title="style_prop_desc.klEMiSpoilerButtonActive" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Special styling rules for the inline spoiler ([ISPOILER]) show/hide toggle button in active state.]]></phrase>
+  <phrase title="style_prop_desc.klEMiSpoilerButtonIcon" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Special styling rules for the inline spoiler ([ISPOILER]) show/hide toggle button icon.]]></phrase>
+  <phrase title="style_prop_desc.klEMiSpoilerButtonIconActive" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Special styling rules for the inline spoiler ([ISPOILER]) show/hide toggle button icon in active state.]]></phrase>
+  <phrase title="style_prop_desc.klEMiSpoilerButtonTitle" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Special styling rules for the inline spoiler ([ISPOILER]) title.]]></phrase>
+  <phrase title="style_prop_desc.klEMiSpoilerContent" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Special styling rules for the inline spoiler ([ISPOILER]) content.]]></phrase>
+  <phrase title="style_prop_desc.klEMiSpoilerContentActive" addon_id="KL/EditorManager" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Special styling rules for the inline spoiler ([ISPOILER]) content in active state.]]></phrase>
+</language>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="AL/NavigationBadge" export_version="2">
+  <phrase title="alnb_badge_configuration" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Тип ярлычка]]></phrase>
+  <phrase title="alnb_badge_style" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Стиль ярлычка]]></phrase>
+  <phrase title="alnb_badge_style_explain" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Любые дополнительные правила CSS для данного ярлычка. Например: <code>font-size:11px;color: blue !important;</code>]]></phrase>
+  <phrase title="alnb_callback_is_invalid" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Коллбек ярлычка неверный. Проверьте, существуют ли заданный класс и метод.]]></phrase>
+  <phrase title="alnb_no_badge" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Нет ярлычка]]></phrase>
+  <phrase title="alnb_please_enter_static_value_or_disable_badge" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Введите значение для ярлычка или отключите его.]]></phrase>
+  <phrase title="alnb_static_explain" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Любое введенное значение будет отображено как есть.]]></phrase>
+  <phrase title="alnb_static_value" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Статичное значение]]></phrase>
+  <phrase title="alnb_variable" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Переменная]]></phrase>
+  <phrase title="alnb_variable_explain" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Полное имя переменной шаблона (без скобок).]]></phrase>
+  <phrase title="alnb_variable_full_name" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Полное имя переменной]]></phrase>
+  <phrase title="alnb_variable_name_is_invalid" addon_id="AL/NavigationBadge" version_id="1000071" version_string="1.0.0"><![CDATA[Неверное имя переменной. название должно начинаться со значка "$" и удовлетворять правилам именования переменных в языке PHP.]]></phrase>
+</language>

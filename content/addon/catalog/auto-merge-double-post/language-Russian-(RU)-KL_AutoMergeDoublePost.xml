@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="KL/AutoMergeDoublePost" export_version="2">
+  <phrase title="custom_bb_code_desc.automerge" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.automerge" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.automerge" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.automerge" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[Сообщение об автоматическом объединении даблпостов]]></phrase>
+  <phrase title="kl_amdp_merge_message" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[Пост автоматически объединен: {time}]]></phrase>
+  <phrase title="kl_amdp_merged" addon_id="KL/AutoMergeDoublePost" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Автоматическое объединение даблпостов]]></phrase>
+  <phrase title="kl_amdp_post_has_been_merged" addon_id="KL/AutoMergeDoublePost" version_id="1010070" version_string="1.1.0"><![CDATA[Ваш пост был объединен.]]></phrase>
+  <phrase title="kl_amdp_user_post_merged" addon_id="KL/AutoMergeDoublePost" version_id="1000270" version_string="1.0.2"><![CDATA[Ваш <a href="{postLink}">пост</a> в теме {thread} был автоматически объединен с вашим предыдущим постом.]]></phrase>
+  <phrase title="kl_amdp_your_message_has_been_automatically_merged" addon_id="KL/AutoMergeDoublePost" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Ваш посто был автоматически объединен]]></phrase>
+  <phrase title="option.kl_amdp_merge_message" addon_id="KL/AutoMergeDoublePost" version_id="1010070" version_string="1.1.0"><![CDATA[Добавить сообщение об объединении]]></phrase>
+  <phrase title="option.kl_amdp_merge_notifications" addon_id="KL/AutoMergeDoublePost" version_id="1010070" version_string="1.1.0"><![CDATA[Отправлять уведомления об объединении постов]]></phrase>
+  <phrase title="option.kl_amdp_minimal_time" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[Минимальное время для автоматического объединения]]></phrase>
+  <phrase title="option.kl_amdp_send_merge_alert" addon_id="KL/AutoMergeDoublePost" version_id="1010070" version_string="1.1.0"><![CDATA[Отправлять автору предупреждения об автоматическом объединении]]></phrase>
+  <phrase title="option_explain.kl_amdp_merge_message" addon_id="KL/AutoMergeDoublePost" version_id="1010070" version_string="1.1.0"><![CDATA[Если включено, в объединенный пост будет включено уведомление об объединении.]]></phrase>
+  <phrase title="option_explain.kl_amdp_merge_notifications" addon_id="KL/AutoMergeDoublePost" version_id="1010070" version_string="1.1.0"><![CDATA[Если включено, юзерам, отслеживающим тему, или юзерам, которые отмечены в объединенных постах, будут отправлены уведомления..]]></phrase>
+  <phrase title="option_explain.kl_amdp_minimal_time" addon_id="KL/AutoMergeDoublePost" version_id="1010070" version_string="1.1.0"><![CDATA[When this option is enabled, the minimum merge time from all permission sets that apply to the user will be chosen. If disabled, the maximum merge time will be in effect.]]></phrase>
+  <phrase title="option_explain.kl_amdp_send_merge_alert" addon_id="KL/AutoMergeDoublePost" version_id="1010070" version_string="1.1.0"><![CDATA[Если включено, юзеру, чьи посты были автоматически объединены, будет оправлено уведомление.]]></phrase>
+  <phrase title="option_group.kl_amdp" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[[KL] Автоматическое объединение даблпостов]]></phrase>
+  <phrase title="option_group_description.kl_amdp" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[Настройки плагина автоматического объединения постов.]]></phrase>
+  <phrase title="permission.forum_klAMDPBypassMerge" addon_id="KL/AutoMergeDoublePost" version_id="1000270" version_string="1.0.2"><![CDATA[Никогда не объединять посты автоматически]]></phrase>
+  <phrase title="permission.forum_klAMDPMergeTime" addon_id="KL/AutoMergeDoublePost" version_id="1000270" version_string="1.0.2"><![CDATA[Объединять посты автоматически только в течение X часов]]></phrase>
+  <phrase title="permission_interface.klAMDP" addon_id="KL/AutoMergeDoublePost" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Права на использование автоматического объединения постов]]></phrase>
+  <phrase title="style_prop.kl_amdp_block" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[Блок объединения постов для BB Code]]></phrase>
+  <phrase title="style_prop_desc.kl_amdp_block" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="style_prop_group.kl_amdp" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[[KL] Автоматическое объединение даблпостов]]></phrase>
+  <phrase title="style_prop_group_desc.kl_amdp" addon_id="KL/AutoMergeDoublePost" version_id="1000070" version_string="1.0.0"><![CDATA[Настройки стиля для плагина автоматического объединения постов.]]></phrase>
+</language>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="XenConcept/ShowForumModerator" export_version="2">
+  <phrase title="permission.general_showForumModerator" addon_id="XenConcept/ShowForumModerator" version_id="2000000" version_string="2.0.0"><![CDATA[Может видеть модераторов форума]]></phrase>
+  <phrase title="xc_show_forum_moderator_moderators_of" addon_id="XenConcept/ShowForumModerator" version_id="2000000" version_string="2.0.0"><![CDATA[Модераторы]]></phrase>
+</language>

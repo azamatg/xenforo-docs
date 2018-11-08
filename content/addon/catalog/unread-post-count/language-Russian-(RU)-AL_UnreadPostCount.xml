@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="AL/UnreadPostCount" export_version="2">
+  <phrase title="option.showUnreadInMobile" addon_id="AL/UnreadPostCount" version_id="1020071" version_string="1.2.0"><![CDATA[Отображать счетчик непрочитанного в мобильной версии]]></phrase>
+  <phrase title="option.showUnreadPostIfNone" addon_id="AL/UnreadPostCount" version_id="1000071" version_string="1.0.0"><![CDATA[Скрывать счетчик непрочитанного, если нет непрочитанных постов]]></phrase>
+  <phrase title="option.unreadPostCountCache" addon_id="AL/UnreadPostCount" version_id="1000071" version_string="1.0.0"><![CDATA[Кеш счетчика непрочитанного (в минутах)]]></phrase>
+  <phrase title="option_explain.showUnreadInMobile" addon_id="AL/UnreadPostCount" version_id="1020071" version_string="1.2.0"><![CDATA[Если включено, счетчик непрочитанного будет отображаться в мобильной версии форума (в блоке Что нового).]]></phrase>
+  <phrase title="option_explain.showUnreadPostIfNone" addon_id="AL/UnreadPostCount" version_id="1000071" version_string="1.0.0"><![CDATA[По умолчанию вкладка Что нового не отображает счетчик непрочитанного, если непрочитанных постов нет.]]></phrase>
+  <phrase title="option_explain.unreadPostCountCache" addon_id="AL/UnreadPostCount" version_id="1000071" version_string="1.0.0"><![CDATA[Кешировать счетчик непрочитанного на указанное время. 0 - отключить кеш.]]></phrase>
+  <phrase title="unread_post_counter" addon_id="AL/UnreadPostCount" version_id="1010371" version_string="1.1.3"><![CDATA[{count}]]></phrase>
+</language>

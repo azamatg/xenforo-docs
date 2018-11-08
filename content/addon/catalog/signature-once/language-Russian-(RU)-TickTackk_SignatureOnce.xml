@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="TickTackk/SignatureOnce" export_version="2">
+  <phrase title="option.showSignatureOncePerThread" addon_id="TickTackk/SignatureOnce" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Показывать подпись юзера только один раз на странице темы]]></phrase>
+  <phrase title="option_explain.showSignatureOncePerThread" addon_id="TickTackk/SignatureOnce" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Если опция отмечена, подписи юзеров будут отображаться в темах только один (первый) раз.]]></phrase>
+  <phrase title="permission.forum_bypassSignatureOnce" addon_id="TickTackk/SignatureOnce" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Пропустить проверку опции "Одноразовая подпись"]]></phrase>
+</language>

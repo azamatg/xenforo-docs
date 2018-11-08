@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="skhms/MarkThreadRead" export_version="2">
+  <phrase title="sk_mark_as_read" addon_id="skhms/MarkThreadRead" version_id="10000001" version_string="10.0.0 1"><![CDATA[Отметить прочтенным]]></phrase>
+  <phrase title="sk_mark_threads_as_read" addon_id="skhms/MarkThreadRead" version_id="10000001" version_string="1.0.0.001"><![CDATA[Отметить темы прочтенными]]></phrase>
+  <phrase title="sk_thread_marked_read" addon_id="skhms/MarkThreadRead" version_id="10000001" version_string="1.0.0.001"><![CDATA[Тема прочитана]]></phrase>
+</language>
