@@ -6,6 +6,7 @@ draft = false
 layout = "single"
 +++
 
+> Анализ (разбор) шаблонов XenForo с пояснениями к строкам кода.
 
 {{% section_inner_pages name="Шаблон" %}}
 

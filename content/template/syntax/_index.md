@@ -117,6 +117,8 @@ show_progress = "true"
 Тег IF используется для ограничения/вывода частей шаблона по заданным условиям.
 
 
+
+
 ## Ссылки
 
 - [Оригинал статьи](https://github.com/xenforo-ltd/docs/blob/master/docs/template-syntax.md)
