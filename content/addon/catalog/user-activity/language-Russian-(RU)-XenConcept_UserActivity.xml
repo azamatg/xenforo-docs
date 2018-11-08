@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="XenConcept/UserActivity" export_version="2">
+  <phrase title="option.xc_user_activity_display_days" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Дней для показа]]></phrase>
+  <phrase title="option.xc_user_activity_display_users_reader" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Как показывать юзеров]]></phrase>
+  <phrase title="option.xc_user_activity_display_users_viewing" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Как показывать юзеров]]></phrase>
+  <phrase title="option.xc_user_activity_display_users_viewing_forum" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Как показывать юзеров]]></phrase>
+  <phrase title="option.xc_user_activity_enable_readers_thread" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Включить "Тему прочитали"]]></phrase>
+  <phrase title="option.xc_user_activity_enable_viewing_forum" addon_id="XenConcept/UserActivity" version_id="2000400" version_string="2.0.4"><![CDATA[Включить "Тему просматривают" в списке тем в форуме]]></phrase>
+  <phrase title="option.xc_user_activity_enable_viewing_forum_home" addon_id="XenConcept/UserActivity" version_id="2000400" version_string="2.0.4"><![CDATA[Включить "Форум просматривают" на главной]]></phrase>
+  <phrase title="option.xc_user_activity_enable_viewing_thread" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Включить "Тему просматривают"]]></phrase>
+  <phrase title="option.xc_user_activity_exclude_robots_viewing_forum" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Не учитывать активность ботов]]></phrase>
+  <phrase title="option.xc_user_activity_exclude_robots_viewing_thread" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Не учитывать активность ботов]]></phrase>
+  <phrase title="option.xc_user_activity_exclude_user_banned" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Не учитывать забаненных]]></phrase>
+  <phrase title="option.xc_user_activity_position_read_thread" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Позиция блока "Форум прочитали""]]></phrase>
+  <phrase title="option.xc_user_activity_position_viewing_forum" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Позиция блока "Форум просматривают"]]></phrase>
+  <phrase title="option.xc_user_activity_position_viewing_thread" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Позиция блока "Тему просматривают"]]></phrase>
+  <phrase title="option.xc_user_activity_readers_limit" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Лимит прочитавших]]></phrase>
+  <phrase title="option.xc_user_activity_readers_sort_by_alphabetical" addon_id="XenConcept/UserActivity" version_id="2000100" version_string="2.0.1"><![CDATA[Сортировать ники по алфавиту]]></phrase>
+  <phrase title="option.xc_user_activity_title_block_forum" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Заголовок блока]]></phrase>
+  <phrase title="option.xc_user_activity_title_block_read" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Заголовок блока]]></phrase>
+  <phrase title="option.xc_user_activity_title_block_viewing" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Заголовок блока]]></phrase>
+  <phrase title="option.xc_user_activity_viewing_forum_remove_footer" addon_id="XenConcept/UserActivity" version_id="2000300" version_string="2.0.3"><![CDATA[Убрать подвал блока]]></phrase>
+  <phrase title="option.xc_user_activity_viewing_thread_remove_footer" addon_id="XenConcept/UserActivity" version_id="2000300" version_string="2.0.3"><![CDATA[Убрать подвал блока]]></phrase>
+  <phrase title="option_explain.xc_user_activity_display_days" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Введите количество дней для ограничения показа юзеров. Будут отображаться только юзеры, прочитавшие тему в течение этого количества дней. 0 - показывать всех юзеров.]]></phrase>
+  <phrase title="option_explain.xc_user_activity_display_users_reader" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Как показывать юзеров, читающих тему - в виде ников или аватаров.]]></phrase>
+  <phrase title="option_explain.xc_user_activity_display_users_viewing" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Как показывать юзеров, просматривающих тему - в виде ников или аватаров.]]></phrase>
+  <phrase title="option_explain.xc_user_activity_display_users_viewing_forum" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Как показывать юзеров, просматривающих форум - в виде ников или аватаров.]]></phrase>
+  <phrase title="option_explain.xc_user_activity_enable_readers_thread" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Разрешить блок "Тему прочитали".]]></phrase>
+  <phrase title="option_explain.xc_user_activity_enable_viewing_forum" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xc_user_activity_enable_viewing_forum_home" addon_id="XenConcept/UserActivity" version_id="2000400" version_string="2.0.4"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xc_user_activity_enable_viewing_thread" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Разрешить блок "Тему смотрят".]]></phrase>
+  <phrase title="option_explain.xc_user_activity_exclude_robots_viewing_forum" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xc_user_activity_exclude_robots_viewing_thread" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xc_user_activity_exclude_user_banned" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xc_user_activity_position_read_thread" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Выберите, в каком месте темы показывать блок "Тему прочитали".]]></phrase>
+  <phrase title="option_explain.xc_user_activity_position_viewing_forum" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Выберите, в каком месте форума показывать блок "Форум просматривают".]]></phrase>
+  <phrase title="option_explain.xc_user_activity_position_viewing_thread" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Выберите, в каком месте темы показывать блок "Тему просматривают".]]></phrase>
+  <phrase title="option_explain.xc_user_activity_readers_limit" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Показывать заданное число прочитавших. 
+<br>
+Введите 0, чтобы отображались все прочитавшие.]]></phrase>
+  <phrase title="option_explain.xc_user_activity_readers_sort_by_alphabetical" addon_id="XenConcept/UserActivity" version_id="2000100" version_string="2.0.1"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xc_user_activity_title_block_forum" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[{total} => Тег подстановки общего количества юзеров.
+{members} => Тег подстановки общего количества юзеров
+{guests} => Тег подстановки общего количества гостей]]></phrase>
+  <phrase title="option_explain.xc_user_activity_title_block_read" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[{total} => Тег подстановки общего количества юзеров]]></phrase>
+  <phrase title="option_explain.xc_user_activity_title_block_viewing" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[{total}        => Тег подстановки общего количества юзеров
+<br>
+{members} => Тег подстановки общего количества юзеров
+<br>
+{guests}     => Тег подстановки общего количества гостей]]></phrase>
+  <phrase title="option_explain.xc_user_activity_viewing_forum_remove_footer" addon_id="XenConcept/UserActivity" version_id="2000300" version_string="2.0.3"><![CDATA[Удалить блок, который содержит (Всего: member: guest).]]></phrase>
+  <phrase title="option_explain.xc_user_activity_viewing_thread_remove_footer" addon_id="XenConcept/UserActivity" version_id="2000300" version_string="2.0.3"><![CDATA[Удалить блок, который содержит (Всего: member: guest).]]></phrase>
+  <phrase title="option_group.xc_user_activity" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[[XenConcept] Активность юзеров (Прочитали, Просматривают тему, Просматривают форум)]]></phrase>
+  <phrase title="option_group_description.xc_user_activity" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Настройки аддона "Активность юзеров".]]></phrase>
+  <phrase title="permission.forum_readersAllThread" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Может просматривать прочитавших темы во всех темах]]></phrase>
+  <phrase title="permission.forum_readersOwnThread" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Может просматривать прочитавших свои темы]]></phrase>
+  <phrase title="permission.forum_viewersAllThread" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Может просматривать смотрящих темы во всех темах]]></phrase>
+  <phrase title="permission.forum_viewersForumForumHome" addon_id="XenConcept/UserActivity" version_id="2000700" version_string="2.0.7"><![CDATA[Может просматривать смотрящих форум (на главной форума)]]></phrase>
+  <phrase title="permission.forum_viewersForumThreadList" addon_id="XenConcept/UserActivity" version_id="2000400" version_string="2.0.4"><![CDATA[Может просматривать смотрящих форум (в списке тем)]]></phrase>
+  <phrase title="permission.forum_viewersOwnThread" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Может просматривать смотрящих в своих темах]]></phrase>
+  <phrase title="permission_interface.xc_user_activity" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[[XenConcept] Активность юзеров (Прочитали, Просматривают тему, Просматривают форум)]]></phrase>
+  <phrase title="widget_def.xc_user_activity_readers" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Прочитали тему]]></phrase>
+  <phrase title="widget_def.xc_user_activity_view_for" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Смотрят форум]]></phrase>
+  <phrase title="widget_def.xc_user_activity_viewers" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Смотрят тему]]></phrase>
+  <phrase title="widget_def_desc.xc_user_activity_readers" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Отображает юзеров, прочитавших тему.]]></phrase>
+  <phrase title="widget_def_desc.xc_user_activity_view_for" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Отображает юзеров, смотрящих форум.]]></phrase>
+  <phrase title="widget_def_desc.xc_user_activity_viewers" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Отображает юзеров, смотрящих тему.]]></phrase>
+  <phrase title="xc_user_activity_above_page_nav" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Над навигацией]]></phrase>
+  <phrase title="xc_user_activity_above_quick_reply" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Над блоком быстрого ответа]]></phrase>
+  <phrase title="xc_user_activity_above_thread_list" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Над списком форумов]]></phrase>
+  <phrase title="xc_user_activity_avatar_only" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Только аватар]]></phrase>
+  <phrase title="xc_user_activity_below_quick_reply" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Под блоком быстрого ответа]]></phrase>
+  <phrase title="xc_user_activity_below_share_block" addon_id="XenConcept/UserActivity" version_id="2000100" version_string="2.0.1"><![CDATA[Под блоком "Поделиться"]]></phrase>
+  <phrase title="xc_user_activity_below_thread_list" addon_id="XenConcept/UserActivity" version_id="2000200" version_string="2.0.2"><![CDATA[Под списком тем]]></phrase>
+  <phrase title="xc_user_activity_read_thread_options" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Настройки чтения темы]]></phrase>
+  <phrase title="xc_user_activity_show_all" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Показать все]]></phrase>
+  <phrase title="xc_user_activity_username_only" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Только ник]]></phrase>
+  <phrase title="xc_user_activity_viewing_forum_options" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Настройки просмотра форума]]></phrase>
+  <phrase title="xc_user_activity_viewing_thread_options" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[Настройки просмотра темы]]></phrase>
+  <phrase title="xc_user_activity_x_viewing" addon_id="XenConcept/UserActivity" version_id="2000000" version_string="2.0.0"><![CDATA[{total} просматривают]]></phrase>
+</language>

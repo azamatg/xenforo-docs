@@ -12,6 +12,8 @@ show_progress = "true"
 
 {{% bq class="info" %}}`$post` - текущий пост{{% /bq %}}
 
+## Введение
+
 Получаем дамп внутри макроса `post`:
 
 ```html
