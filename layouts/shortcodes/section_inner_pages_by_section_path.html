@@ -1,0 +1,38 @@
+{{ $this_name := .Get "name" }}
+{{ $this_path := .Get "path" }}
+{{ $.Scratch.Set "name" $this_name }}
+
+
+{{ with .Site.GetPage $this_path }}
+
+<table class="table table-bordered table-hover">
+
+    <thead>
+
+    <tr>
+        <th>{{ $.Scratch.Get "name" }}</th>
+        <th>Краткое описание</th>
+        <th>Заполнение страницы</th>
+    </tr>
+
+    </thead>
+
+    <tbody>
+
+    {{ range .Sections }}
+    <tr>
+        <td><a  href="{{ .URL }}">{{ .Params.menutitle }}</a></td>
+        <td>{{ .Params.short_desc }}</td>
+        <td>
+            <div class="progress">
+                <div class="progress-bar bg-{{ if eq .Params.page_progress "100" }}success{{ else }}warning{{ end }}" role="progressbar" style="width: {{ .Params.page_progress }}%;" aria-valuenow="{{ .Params.page_progress }}" aria-valuemin="0" aria-valuemax="100">{{ .Params.page_progress }}%</div>
+            </div>
+        </td>
+    </tr>
+    {{ end }}
+
+    </tbody>
+
+</table>
+
+{{ end }}

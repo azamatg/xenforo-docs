@@ -27,7 +27,7 @@ show_progress = "true"
 - `xf:title`
 - `xf:foreach`
 
-## Справочник по тегам (в активной разработке)
+## Справочник по тегам
 
 {{% section_inner_pages name="Тег" %}}
 
