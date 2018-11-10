@@ -7,7 +7,7 @@ short_desc = "Вывод аватара юзера"
 date = 2018-11-09T14:03:17+05:00
 draft = "false"
 layout = "single"
-page_author = "me"
+page_author = "official"
 page_progress = "100"
 show_progress = "true"
 +++
@@ -46,3 +46,10 @@ show_progress = "true"
 | `m` | `96px` |
 | `s` | `48px` |
 
+## Для программистов
+
+Содержимое тега генерируется функцией `fnAvatar` класса `Templater`:
+
+```php
+public function fnAvatar($templater, &$escape, $user, $size, $canonical = false, $attributes = [])
+```

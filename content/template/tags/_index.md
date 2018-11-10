@@ -10,6 +10,10 @@ show_progress = "true"
 
 {{% bq %}}Список тегов, которые используются в шаблонах XenForo{{% /bq %}}
 
+## Справочник по тегам
+
+{{% section_inner_pages name="Тег" %}}
+
 ## Простой общий список тегов
 
 - `xf:macro` - Макрос
@@ -26,10 +30,6 @@ show_progress = "true"
 - `xf:description`
 - `xf:title`
 - `xf:foreach`
-
-## Справочник по тегам
-
-{{% section_inner_pages name="Тег" %}}
 
 ## Теги форм
 

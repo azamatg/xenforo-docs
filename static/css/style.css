@@ -279,3 +279,7 @@ main h2 {
 .add_table_css td code {
     white-space: nowrap;
 }
+
+.table-no-fullwidth {
+    width: initial;
+}
