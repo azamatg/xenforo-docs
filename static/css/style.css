@@ -283,3 +283,7 @@ main h2 {
 .table-no-fullwidth {
     width: initial;
 }
+
+.font_monospaced {
+    font-family: "Fira Code", Menlo, monospace;
+}

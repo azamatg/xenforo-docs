@@ -14,7 +14,7 @@
 
   {{ range .Page.Sections }}
     <tr>
-      <td><a  href="{{ .URL }}">{{ .Params.menutitle }}</a></td>
+      <td><a  href="{{ .URL }}" class="font_monospaced">{{ .Params.menutitle }}</a></td>
       <td>{{ .Params.short_desc }}</td>
       <td>
         <div class="progress">
