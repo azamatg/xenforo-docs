@@ -1,9 +1,9 @@
 +++
-title = "Добавляет CSS или LESS - xf:css"
+title = "Добавляет CSS или LESS"
 menutitle = "xf:css"
 linktitle = "xf:css"
-metatitle = "Добавляет CSS или LESS - xf:css"
-short_desc = "xf:css"
+metatitle = "xf:css"
+short_desc = "Добавляет CSS или LESS"
 date = 2018-11-10T15:36:31+05:00
 draft = "false"
 layout = "single"

@@ -1,9 +1,9 @@
 +++
-title = "Выполняет PHP-коллбек - xf:callback"
+title = "Выполняет PHP-коллбек"
 menutitle = "xf:callback"
 linktitle = "xf:callback"
 metatitle = "xf:callbackk"
-short_desc = "Выполняет PHP-коллбек - xf:callback"
+short_desc = "Выполняет PHP-коллбек"
 date = 2018-11-10T15:24:12+05:00
 draft = "false"
 layout = "single"

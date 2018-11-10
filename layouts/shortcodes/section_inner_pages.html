@@ -12,7 +12,7 @@
 
   <tbody>
 
-  {{ range .Page.Sections }}
+  {{ range .Page.Sections.ByTitle }}
     <tr>
       <td><a  href="{{ .URL }}" class="font_monospaced">{{ .Params.menutitle }}</a></td>
       <td>{{ .Params.short_desc }}</td>
